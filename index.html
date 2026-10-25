@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A warm, joyful Ganpati festival celebration and donation page." />
+    <title>Sanskruti Park Ganpati Mandal 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Yatra+One&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Sanskruti Park Ganpati Mandal home"><span>ॐ</span> Sanskruti Park Ganpati Mandal</a>
+      <button class="menu-button" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#donate">Donate</a>
+        <a class="nav-cta" href="#donate">Contribute</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-pattern pattern-one"></div>
+        <div class="hero-pattern pattern-two"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Ganesh Chaturthi 2026</p>
+          <h1>Celebrate the joy of <span>Ganpati Bappa</span></h1>
+          <p class="hero-text">A festival of faith, music, community and new beginnings. Join us for ten beautiful days of devotion and togetherness.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#schedule">See celebrations <span>→</span></a>
+            <a class="button text-button" href="#about">Our story</a>
+          </div>
+        </div>
+        <figure class="ganpati-card">
+          <img src="ganpati-sanskruti-park.jpg" alt="Lord Ganpati with Sanskruti Park Ganpati Mandal 2026 artwork" />
+          <figcaption>Sanskruti Park Ganpati Mandal 2026</figcaption>
+        </figure>
+        <div class="scroll-note">Scroll to celebrate <span>↓</span></div>
+      </section>
+
+      <section class="intro section" id="about">
+        <div>
+          <p class="eyebrow saffron">Our celebration</p>
+          <h2>One festival. A thousand blessings.</h2>
+        </div>
+        <p class="intro-text">Sanskruti Park Ganpati Mandal brings our community together through aarti, cultural evenings, prasad, and a shared spirit of seva. Everyone is welcome.</p>
+      </section>
+
+      <section class="features section">
+        <article class="feature-card">
+          <div class="icon-wrap">🪔</div>
+          <h3>Daily Aarti</h3>
+          <p>Begin every evening with prayer, bhajans and a peaceful shared aarti.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon-wrap">🎶</div>
+          <h3>Cultural Evenings</h3>
+          <p>Music, dance, children’s performances and stories that bring us closer.</p>
+        </article>
+        <article class="feature-card">
+          <div class="icon-wrap">🤝</div>
+          <h3>Seva & Prasad</h3>
+          <p>Volunteer with us and help us serve prasad to every guest with love.</p>
+        </article>
+      </section>
+
+      <section class="schedule section" id="schedule">
+        <div class="section-heading">
+          <p class="eyebrow saffron">Mark your calendar</p>
+          <h2>Festival highlights</h2>
+        </div>
+        <div class="schedule-list">
+          <article class="schedule-item">
+            <div class="date-badge"><strong>DAY</strong><span>01</span></div>
+            <div><p class="time">10:00 AM</p><h3>Pran Pratishtha</h3><p>Welcoming Bappa with devotion and flower offerings.</p></div>
+            <span class="item-arrow">↗</span>
+          </article>
+          <article class="schedule-item">
+            <div class="date-badge"><strong>DAY</strong><span>05</span></div>
+            <div><p class="time">7:00 PM</p><h3>Community Cultural Night</h3><p>An evening of local talent, songs and celebration.</p></div>
+            <span class="item-arrow">↗</span>
+          </article>
+          <article class="schedule-item">
+            <div class="date-badge"><strong>DAY</strong><span>10</span></div>
+            <div><p class="time">4:00 PM</p><h3>Visarjan Procession</h3><p>A joyful farewell with gratitude in every heart.</p></div>
+            <span class="item-arrow">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="donation section" id="donate">
+        <div class="donation-copy">
+          <p class="eyebrow gold">Help the celebration shine</p>
+          <h2>Your offering makes a difference.</h2>
+          <p>Every contribution supports decorations, prasad, cultural programs and community service during the festival.</p>
+          <div class="donation-stat"><strong id="donation-total">₹ 12,450</strong><span>raised with love</span></div>
+        </div>
+        <form class="donation-box" id="donation-form">
+          <h3>Make an offering</h3>
+          <p class="form-note">Choose an amount or enter your own.</p>
+          <div class="amount-options" role="group" aria-label="Donation amount">
+            <button type="button" data-amount="501">₹501</button>
+            <button type="button" data-amount="1101">₹1,101</button>
+            <button type="button" data-amount="2101">₹2,101</button>
+          </div>
+          <label for="custom-amount">Your amount</label>
+          <div class="input-wrap"><span>₹</span><input id="custom-amount" name="amount" type="number" min="1" placeholder="Enter amount" required /></div>
+          <button class="button donate-button" type="submit">Donate with love <span>♥</span></button>
+          <p class="secure-note">🔒 This is a demo donation form. No payment is collected.</p>
+          <p class="success-message" id="success-message" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand" href="#home"><span>ॐ</span> Sanskruti Park Ganpati Mandal</a>
+      <p>Made with devotion for the Sanskruti Park community. Ganpati Bappa Morya!</p>
+      <a href="#home" aria-label="Back to top">↑ Back to top</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
